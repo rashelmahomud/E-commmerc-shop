@@ -23,3 +23,7 @@ button.product-btn {
     background-color: #FFE0B3;
     font-size: 18px;
 }
+
+button.product-btn:hover{
+    background-color: wheat;
+}

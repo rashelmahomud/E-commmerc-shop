@@ -3,8 +3,8 @@ import './Product.css';
 
 const Product = (props) => {
     const {name,price,img,ratings,seller} = props.product;
-   
-    return (
+
+    return ( 
         <div className='product'>
         <img className='imgs' src={img} alt="" />
         <div className='product-info'>
@@ -14,7 +14,7 @@ const Product = (props) => {
         <p>Rating :{ratings}</p>
         </div>
 
-        <button className='product-btn'>Add to Cart</button>
+        <button onClick={() => props.hundelClick(props.product)}  className='product-btn'>Add to Cart</button>
    
         </div>
     );
