@@ -1,0 +1,12 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0px 140px 0px 140px;
+    margin-top: 80px;
+}
+.shops {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   
+}
+
